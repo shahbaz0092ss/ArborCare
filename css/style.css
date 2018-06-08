@@ -1,0 +1,50 @@
+/*============ NAVIGATION ==============*/
+
+.navbar-brand >img{
+	height: 70px;
+}
+
+/*============ NAVIGATION ==============*/
+
+/*============ Home ==============*/
+
+.banner{
+	width: 100%;
+	height:500px;
+}
+
+.banner-text{
+	position: absolute;
+	left:50%;
+	top:50%;
+	background: #eee;
+	padding: 15px;
+	
+}
+
+/*============ Home ==============*/
+
+
+/*// For Screen size more than the NAVBAR breakpoint(More than 991.98px)*/
+@media (min-width: 991.98px) { 
+  
+.nav-item{
+  padding: 20px 25px;
+}
+
+.logoOnLeft{
+  display: none !important;
+}
+.logoOnCenter{
+  display: inline-block;
+ }
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops)*/
+/*// No media query since the extra-large breakpoint has no upper bound on its width*/
+
+@media screen and (max-width: 767px) {
+}
