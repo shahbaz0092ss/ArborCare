@@ -3,38 +3,33 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <!-- Font-Awsome CSS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     <title>Arbor Care</title>
   </head>
   <body>
-   <!-- =============== HEADER - TOP ================ -->
-   <div class="container-fluid ">
-     <div class="container p-2">
-       <div class="left d-inline-block">
-         <span>Arbor Care</span>
-       </div>
-       <div class="right d-inline-block float-right">
-         <span>Phone: 248.862.4934</span>
-       </div>
-     </div>
-   </div>
-   <!-- =============== HEADER - TOP ================ -->
+  
     <!-- nav start -->
 
-<nav class="navbar  navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top container-fluid  navbar-expand-lg navbar-light bg-light">
    <a class="navbar-brand logoOnLeft" href="#"><img src="images/logo.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto ">
+    <ul class="navbar-nav mx-auto d-flex align-items-center">
       <li class="nav-item lg active">
         <a class="nav-link" href="#">Home</a>
       </li>
@@ -62,21 +57,34 @@
 </nav>
 
     <!-- nav end -->
-
+ <!-- =============== HEADER - TOP ================ -->
+   <div class="fixed-top header-top container-fluid ">
+     <div class="container p-2">
+       <div class="left d-inline-block">
+         <!-- <span>Arbor Care</span> -->
+       </div>
+       <div class="right d-inline-block float-right">
+         <span>Phone: 248.862.4934</span>
+       </div>
+     </div>
+   </div>
+   <!-- =============== HEADER - TOP ================ -->
     <!-- =========== BANNER ============ -->
+   
  <div class="banner-container">
-    <img class="banner" src="images/banner-home.jpg">
+    <img class="banner" src="images/banner3.jpg">
 </div>
 <div class="banner-text">
-  <span>Level of care that meets your discerning standards</span>
+  <span class="">LEVEL <small> of </small> CARE <small> that meets <br/>
+   your</small>  DISCERNING STANDARDS</span>
 </div>
     <!-- =========== BANNER ============ -->
 
     <!-- ============= CARDS =================== -->
     <div class="container p-4">
-    <div class="row">
-      <div class="col">
-        <div class="card bg-light" >
+    <div class="row  text-center">
+      <div class="col d-flex align-self-stretch">
+        <div class="card-style card " >
   <div class="card-body">
     <h5 class="card-title">OUR PHILOSOPHY</h5>
     <p class="card-text">At Arbor Care, we believe there’s no place like home. Our goal is to let
@@ -86,8 +94,8 @@ home, instead of being confined to a facility with regimented care.</p>
   </div>
 </div>
       </div>
-      <div class="col">
-        <div class="card bg-light" >
+      <div class="col d-flex align-self-stretch">
+        <div class="card-style card " >
   <div class="card-body">
     <h5 class="card-title">OUR COMMITMENT & PROMISE</h5>
     <p class="card-text">We understand our clients are accustomed to a certain lifestyle. We pay
@@ -102,25 +110,28 @@ their health and wellness.</p>
 
     <!-- ================== DIVIDER ================ -->
 
-     <div class="container-fluid bg-info p-4">
+     <div class=" divider container  ">
     <center>
-      <h5>Home Care Reimagined</h5>
-      <i class="fas fa-caret-down"></i>
+      <hr>
+      <h3 class="heading mt-4">Home Care Re-imagined</h3>
+      <!-- <i class="fas fa-caret-down"></i> -->
+      <!-- <hr class="mt-2"> -->
+
     </center>       
    </div>
 
     <!-- ================== DIVIDER ================ -->
     <!-- ===================== SECTION ================= -->  
 
-     <div class="container p-4">
+     <div class="container mt-4 p-4">
     <div class="row">
       <div class="col">
-        <span>The Arbor Experience</span>
-        <img class="img-fluid" src="images/reimagined-section-image-1.jpg">
+        <h5 class="border-left-style">The Arbor Experience</h5>
+        <img class="img-fluid" src="images/banner2.jpg">
       </div>
        <div class="col">
-        <span>Senior Concierge Services</span>
-        <img class="img-fluid" src="images/reimagined-section-image-2.jpg">
+        <h5 class="border-left-style">Senior Concierge Services</h5>
+        <img class="img-fluid" src="images/reimagined-section-image-21.jpg">
       </div>
     </div>
   </div>
@@ -128,28 +139,101 @@ their health and wellness.</p>
     <!-- ===================== SECTION ================= --> 
 
     <!-- ====================== JUMBOTRON =====================  -->
+  <div class="container-fluid jumbo-parent">
 
-    <div class="jumbotron container">
+    <div class="jumbotron jumbo-style container">
   <div class="container">
-    <h5 class="text-center">WE DELIVER PEACE OF MIND</h5><br/>
+    <div class="row d-flex align-items-center">
+      <div class="col-md-3"><hr class="w-75 float-right brown-hr"></div>
+      <div class="col-md-6"> <h3 class="sub-heading text-center">WE &nbsp;DELIVER&nbsp;<br/> PEACE &nbsp;OF&nbsp; MIND</h3></div>
+      <div class="col-md-3"><hr  class="w-75 float-left brown-hr"></div>
+    </div>
+   <br/>
     <p class="lead text-center">Specializing in Senior Care and Wellness, Arbor has a pool of compassionate staff, dedicated to pamper your loved ones and cater to their needs..</p>
+    <center><i class="brown-color fas fa-seedling"></i></center>
     <p class="text-center">Your Arbor Liaison will work with you and your loved ones to develop a custom care plan for personalized
 companion care and non-medical assistance, offering you the peace of mind that they are receiving the
 best care possible.</p>
+    <center><i class="brown-color fas fa-seedling"></i></center>
+
 <p class="text-center">As you Arbor Companion meticulously attends to your loved one’s needs, their goal is to form a
 bond with
 them, where they feel completely comfortable and look forward to their Companion’s visit.</p>
   </div>
 </div>
-
+</div>
     <!-- ====================== JUMBOTRON ======================  -->
+ <!-- ================== DIVIDER ================ -->
+
+     <div class="container-fluid bg-blue p-4">
+    <center>
+      <h5>Please call us to schedule a no obligation, in-home consultation with your Arbor Liaison </h5>
+     <h5><i class="fas fa-phone"></i> (248)-862-4934</h5>
+    </center>       
+   </div>
+
+    <!-- ================== DIVIDER ================ -->
+    <!-- ===================== SECTION ================= --> 
+ <div class="container p-4 mb-5">
+    <div class="row mt-4">
+        <h4 class="sub-heading text-center">We understand that it can be difficult and confusing to wade through the vast
+array of home care agencies, all offering similar basic services. </h4>
+
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-7 ">
+        <ul class="p-3 home-list-style">
+          <li>
+            At Arbor Care, we strive to revolutionize the idea of in-home supportive
+care through our unique concept of Senior Concierge Services
+
+          </li>
+          <li>
+            Our goal is to provide the level of care that lives up to the discerning
+standards that your loved ones expect
+
+          </li>
+          <li>
+            We will work closely with you to match the best suited personal companion
+for your loved ones, based on their preferences and needs
+          </li>
+          <li>
+            Your Arbor Liaison is also able to assist your loved ones in planning a
+vacation, making travel arrangements, and if needed, provide an Arbor travel
+companion
+          </li>
+          <li>
+            If your loved ones wish to throw a party, they can rely on their Arbor Liaison
+to assist them with event planning, ordering food, and any other details
+
+          </li>
+          <li>
+            With Arbor taking care of your loved ones, the care possibilities are endless,
+allowing you complete peace of mind
+
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 mt-3">
+        
+          <img class=" img-fluid compressed-images" src="images/compressed.jpg"></a><br/><br/>
+          <img  class="  img-fluid  compressed-images" src="images/compressed2.jpg"></a>
+          
+        
+      </div>
+    </div>
+
+  </div>
 
 
+    <!-- ===================== SECTION ================= --> 
+ 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script>
+    
+  </script>
     <script src="js/bootstrap.min.js" ></script>
   </body>
 </html>
