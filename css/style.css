@@ -108,19 +108,82 @@ p , ul > li{
 	background-color: #fff !important;
 	box-shadow:  5px 10px 20px 0px #ddd;
 	border: 1px solid #968318;
+	border-radius: 2em;
 }
 .brown-hr{
 	border-color: #968318;
 }
-.home-list-style > li{
-margin-bottom: 1.25rem;
-list-style: none;
+.home-list-style > li , .care-list-style > li{
+	margin-bottom: 1.25rem;
+	list-style: none;
 	border-left: 1px solid #968318;
 	padding-left: 15px;
 
 }
 /*============ Home ==============*/
+/*============ CARE ==============*/
 
+.heading-div{
+	margin-top: 130px;
+}
+
+.expertise-cols>*{
+	width: 100% !important;
+	text-align: center;
+	margin-top: 12px;
+}
+.jobTitle{
+	font-weight: 500 !important;
+	color: #968318;
+}
+
+.care-list-style{
+	padding-left: 	0px;
+}
+.full-width-text{
+	position: absolute;
+	background: rgba(0, 0, 66, 0.84);
+		margin-top: 300px;
+		color: #fff;
+		width: 50%;
+
+}
+.care-container {
+/*
+	padding:50px;
+	margin-bottom: 20px;
+	border-radius: 250px;
+	overflow: hidden;
+	color: #fff;
+
+*/	
+	margin-top: 20px;
+
+}
+
+.care-container:nth-child(4),.care-container:nth-child(8){
+	/*float: right;
+	border:10px solid #968318;
+	border-bottom-right-radius:  0px;
+	border-top-right-radius:  0px;
+	padding-left: 0px;
+	background: rgba(0, 0, 66, 0.84);*/
+border-left: 10px solid #968318; 
+
+
+	
+}
+.care-container:nth-child(6),.care-container:nth-child(10){
+	/*float: left;
+	border:10px solid #000042;
+	border-bottom-left-radius:  0px;
+	border-top-left-radius:  0px;
+	padding-right: 0px;
+	background: rgba(0, 0, 66, 0.84);*/
+border-right: 10px solid rgba(0, 0, 66, 0.84);
+	
+}
+/*============ CARE ==============*/
 
 /*// For Screen size more than the NAVBAR breakpoint(More than 991.98px)*/
 @media (min-width: 991.98px) { 
