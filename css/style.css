@@ -57,6 +57,15 @@ p , ul > li{
     /*font-family: myriad-pro,sans-serif;*/
 }
 
+.nav-dropdown{
+	background-color: rgba(150, 131, 24	, 0.84) !important;
+	
+}
+.nav-dropdown a{
+	color: #fff;
+	 font-weight: 500;
+    font-size: 0.85em;
+}
 /*.nav-item:nth-child(1) >  .nav-link , .nav-item:nth-child(2) >  .nav-link , .nav-item:nth-child(3) >  .nav-link{
     border-bottom-left-radius: 25px;
 
@@ -124,7 +133,7 @@ p , ul > li{
 /*============ CARE ==============*/
 
 .heading-div{
-	margin-top: 0px;
+	margin-top: 150px;
 }
 
 .expertise-cols>*{
@@ -194,6 +203,12 @@ border-right: 10px solid rgba(0, 0, 66, 0.84);
 
 
 /*============ concierge ==============*/
+/*============ transition ==============*/
+
+.transition-list{
+	margin-top: 15px !important;
+}
+/*============ transition ==============*/
 
 /*// For Screen size more than the NAVBAR breakpoint(More than 991.98px)*/
 @media (min-width: 991.98px) { 
