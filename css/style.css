@@ -124,7 +124,7 @@ p , ul > li{
 /*============ CARE ==============*/
 
 .heading-div{
-	margin-top: 130px;
+	margin-top: 0px;
 }
 
 .expertise-cols>*{
@@ -184,6 +184,16 @@ border-right: 10px solid rgba(0, 0, 66, 0.84);
 	
 }
 /*============ CARE ==============*/
+/*============ concierge ==============*/
+
+
+.concierge-heading-small{
+	font-size: 2rem !important;
+}
+
+
+
+/*============ concierge ==============*/
 
 /*// For Screen size more than the NAVBAR breakpoint(More than 991.98px)*/
 @media (min-width: 991.98px) { 
