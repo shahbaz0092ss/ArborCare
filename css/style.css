@@ -1,6 +1,8 @@
 /*============ GLOBAL ==============*/
 body{
 	/*font-family: 'Josefin Slab', serif !important;*/
+	/*968318*/
+
 }
 p , ul > li{
 	font-size: 1.25rem !important; 
@@ -10,7 +12,7 @@ p , ul > li{
 	font-family: 'Josefin Slab', serif;
 	font-weight: 700;
 	font-size: 2.5em;
-	background-color: rgba(0, 0, 66, 0.84) !important;
+	background-color: rgba(86, 86, 86, 0.84); !important;
 	color: #fff;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -25,11 +27,11 @@ p , ul > li{
 	color: #c2b779;
 }
 .bg-blue{
-	background-color: rgba(0, 0, 66, 0.84) !important;
+	background-color: rgba(86, 86, 86, 0.84); !important;
 	color: #fff;
 }
 .border-left-style{
-	border-left: 3px solid #968318;
+	border-left: 3px solid #cc9900;
 	padding-left: 15px;
 }
 /*============ GLOBAL ==============*/
@@ -42,27 +44,27 @@ p , ul > li{
 
 .navbar{
 
-	/*background-color: #000042  !important;*/
-	background-color: rgba(0, 0, 66, 0.84) !important;
+	background-color: #fff  !important;
+	/*background-color: rgba(86, 86, 86, 0.84); !important;*/
 	padding-top: 0px !important;
 	padding-bottom: 0px !important;
-	border-bottom: 5px solid #968318;
+	border-bottom: 5px solid #cc9900;
 }
 
 .nav-link{
-	color: #fff!important;
+	color: #a2a2a2!important;
     font-weight: 500;
     font-size: 0.85em;
-    /*border-bottom: 1px solid #968318;*/
+    /*border-bottom: 1px solid #cc9900;*/
     /*font-family: myriad-pro,sans-serif;*/
 }
 
 .nav-dropdown{
-	background-color: rgba(150, 131, 24	, 0.84) !important;
+	/*background-color: rgba(150, 131, 24	, 0.84) !important;*/
 	
 }
 .nav-dropdown a{
-	color: #fff;
+	color: #a2a2a2;
 	 font-weight: 500;
     font-size: 0.85em;
 }
@@ -86,11 +88,11 @@ p , ul > li{
 
 .banner-text{
 	position: absolute;
-	left:0%;
+	right:0%;
 	top: 60vh;
 	font-size: 2.5em;
 	font-weight: 500;
-	background: rgba(0, 0, 66, 0.84);
+	background: rgba(86, 86, 86, 0.84);
 	padding: 35px;
 	color: #fff;
 	font-family: 'Josefin Slab', serif;
@@ -110,22 +112,22 @@ p , ul > li{
 }
 
 /*.jumbo-parent{
-	background-color: #968318;
+	background-color: #cc9900;
 	padding:20px ;
 }*/
 .jumbo-style{
 	background-color: #fff !important;
 	box-shadow:  5px 10px 20px 0px #ddd;
-	border: 1px solid #968318;
+	border: 1px solid #cc9900;
 	border-radius: 2em;
 }
 .brown-hr{
-	border-color: #968318;
+	border-color: #cc9900;
 }
 .home-list-style > li , .care-list-style > li{
 	margin-bottom: 1.25rem;
 	list-style: none;
-	border-left: 1px solid #968318;
+	border-left: 1px solid #cc9900;
 	padding-left: 15px;
 
 }
@@ -143,7 +145,7 @@ p , ul > li{
 }
 .jobTitle{
 	font-weight: 500 !important;
-	color: #968318;
+	color: #cc9900;
 }
 
 .care-list-style{
@@ -151,7 +153,7 @@ p , ul > li{
 }
 .full-width-text{
 	position: absolute;
-	background: rgba(0, 0, 66, 0.84);
+	background: rgba(86, 86, 86, 0.84);
 		margin-top: 300px;
 		color: #fff;
 		width: 50%;
@@ -172,12 +174,12 @@ p , ul > li{
 
 .care-container:nth-child(4),.care-container:nth-child(8){
 	/*float: right;
-	border:10px solid #968318;
+	border:10px solid #cc9900;
 	border-bottom-right-radius:  0px;
 	border-top-right-radius:  0px;
 	padding-left: 0px;
-	background: rgba(0, 0, 66, 0.84);*/
-border-left: 10px solid #968318; 
+	background: rgba(86, 86, 86, 0.84);*/
+border-left: 10px solid #cc9900; 
 
 
 	
@@ -188,8 +190,8 @@ border-left: 10px solid #968318;
 	border-bottom-left-radius:  0px;
 	border-top-left-radius:  0px;
 	padding-right: 0px;
-	background: rgba(0, 0, 66, 0.84);*/
-border-right: 10px solid rgba(0, 0, 66, 0.84);
+	background: rgba(86, 86, 86, 0.84);*/
+border-right: 10px solid rgba(86, 86, 86, 0.84);;
 	
 }
 /*============ CARE ==============*/
