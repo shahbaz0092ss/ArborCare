@@ -109,6 +109,7 @@ p , ul > li{
 
 .card-style{
 	 box-shadow:  5px 5px 15px 0px #eee; 
+	     border: 1px solid rgb(204, 153, 0);
 }
 
 /*.jumbo-parent{
